@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMax": 30.0,
+  "amountMultiplierMin": 10.0,
+  "biomeWhitelist": "minecraft:has_iron_vein",
+  "finite": "default",
+  "icon": {
+    "count": 1,
+    "id": "minecraft:raw_iron"
+  },
+  "name": "{\"translate\":\"item.minecraft.raw_iron\"}",
+  "placement": {
+    "salt": 1544847576,
+    "separation": 1,
+    "spacing": 2
+  },
+  "priority": 0
+}

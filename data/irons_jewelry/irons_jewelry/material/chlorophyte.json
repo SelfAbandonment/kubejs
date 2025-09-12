@@ -1,0 +1,35 @@
+{
+  "descriptionId": "material.irons_jewelry.chlorophyte",
+  "ingredient": {
+    "item": "kubejs:chlorophyte_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/chlorophyte",
+  "quality": 0.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:player.entity_interaction_range",
+      "amount": 0.15,
+      "operation": "add_value"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:haste"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:poison"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:apply_damage",
+        "damageType": "minecraft:thorns",
+        "amount": {
+          "base": 3.0,
+          "scalar": 1
+        }
+      }
+    }
+  }
+}

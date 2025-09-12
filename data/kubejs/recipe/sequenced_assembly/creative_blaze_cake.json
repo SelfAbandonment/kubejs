@@ -1,0 +1,88 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:blaze_cake"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 40.0,
+      "id": "create:creative_blaze_cake"
+    },
+    {
+      "chance": 60.0,
+      "id": "create:cinder_flour"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:blaze_cake"
+        },
+        {
+          "item": "l2complements:eternium_nugget"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:blaze_cake"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:blaze_cake"
+        },
+        {
+          "item": "l2complements:eternium_nugget"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:blaze_cake"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:blaze_cake"
+        },
+        {
+          "item": "l2complements:eternium_nugget"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:blaze_cake"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create:blaze_cake"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:blaze_cake"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:blaze_cake"
+  }
+}

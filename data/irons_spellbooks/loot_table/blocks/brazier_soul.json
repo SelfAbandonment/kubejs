@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+  ],
+  "random_sequence": "irons_spellbooks:blocks/brazier_soul"
+}

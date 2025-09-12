@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMax": 0.5,
+  "amountMultiplierMin": 0.02,
+  "biomeWhitelist": "minecraft:has_diamond_vein",
+  "finite": "default",
+  "icon": {
+    "count": 1,
+    "id": "createoreexcavation:raw_diamond"
+  },
+  "name": "{\"translate\":\"item.createoreexcavation.raw_diamond\"}",
+  "placement": {
+    "salt": 2078084124,
+    "separation": 2,
+    "spacing": 3
+  },
+  "priority": 1
+}

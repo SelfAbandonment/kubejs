@@ -1,0 +1,12 @@
+{
+  "damage": 33,
+  "items": "farmersdelight:honey_glazed_ham",
+  "knockback": 2.5,
+  "reload_ticks": 24,
+  "render_mode": {
+    "type": "create:tumble"
+  },
+  "sound_pitch": 0.4,
+  "velocity_multiplier": 0.6,
+  "gravity_multiplier": 2.2
+}

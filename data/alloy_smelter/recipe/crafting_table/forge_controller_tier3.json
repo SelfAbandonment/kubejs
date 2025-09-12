@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ada",
+    "aba",
+    "nnn"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:end_stone_bricks"
+    },
+    "b": {
+      "item": "minecraft:blast_furnace"
+    },
+    "d": {
+      "item": "minecraft:dragon_head"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "alloy_smelter:forge_controller_tier3",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "itemGroup.createages": "Create: Ages",
+  "block.createages.andesite_machine": "Andesite Machine",
+  "block.createages.copper_machine": "Copper Machine",
+  "block.createages.brass_machine": "Brass Machine",
+  "item.createages.iron_mechanism": "Iron Mechanism",
+  "item.createages.copper_mechanism": "Copper Mechanism",
+  "item.createages.zinc_hand": "Zinc Hand",
+  "item.createages.incomplete_andesite_mechanism": "Incomplete Andesite Mechanism",
+  "item.createages.incomplete_copper_mechanism": "Incomplete Copper Mechanism",
+  "item.createages.incomplete_brass_mechanism": "Incomplete Brass Mechanism",
+  "item.createages.rubber": "Rubber",
+  "item.createages.cured_rubber": "Cured Rubber"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "create",
+  "key": {
+    "e": {
+      "item": "minecraft:ender_eye"
+    },
+    "s": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    "e  ",
+    " s ",
+    "  s"
+  ],
+  "result": {
+    "count": 1,
+    "id": "createoreexcavation:vein_finder"
+  }
+}

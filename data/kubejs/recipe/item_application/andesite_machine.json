@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create_compressed:cogwheel_block"
+    },
+    {
+      "item": "createages:iron_mechanism"
+    }
+  ],
+  "results": [
+    {
+      "id": "createages:andesite_machine"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "temperature": 0.15,
+  "downfall": 0.5,
+  "has_precipitation": true,
+  "creature_spawn_probability": 0.07,
+  "effects": {
+    "sky_color": 16777215,
+    "fog_color": 13224393,
+    "water_color": 10217203,
+    "water_fog_color": 270131,
+    "grass_color": 16765810,
+    "foliage_color": 14316854,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:wolf",
+        "weight": 2,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:fox",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:polar_bear",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:horse",
+        "maxCount": 6,
+        "minCount": 2,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:donkey",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 1
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:stray",
+        "weight": 80,
+        "minCount": 16,
+        "maxCount": 16
+      }
+    ],
+    "underground_water_creature": [
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+    ]
+  },
+  "features": [
+    [
+      "wythers:terrain/local/ice_spikes_grass",
+      "wythers:terrain/local/ice_spikes_glacial_grass",
+      "wythers:terrain/local/ice_spikes_glacial_dirt",
+      "wythers:terrain/local/ice_spikes_glacial_stone",
+      "wythers:terrain/local/glacial_scree",
+      "wythers:terrain/local/thermal_steppe_mud",
+      "wythers:terrain/extended/thermal_savanna_forest_base"
+    ],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface",
+      "wythers:terrain/local/ice_spikes_glacial_gravel",
+      "wythers:terrain/local/thermal_steppe_dirt",
+      "wythers:terrain/local/thermal_steppe_brown",
+      "wythers:terrain/local/thermal_steppe_gray",
+      "wythers:terrain/local/thermal_steppe_soul",
+      "wythers:terrain/local/thermal_steppe_dripstone"
+    ],
+    [
+    ],
+    [
+    ],
+    [],
+    [],
+    [
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "wythers:terrain/feature/thermal_savanna_block_spikes"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "wythers:vegetation/extended/trees/ice_spikes",
+      "wythers:vegetation/local/patch/grass_standard",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "wythers:terrain/feature/thermal_savanna_dripstone_spikes",
+      "c6c:soul_brazier"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "wythers:decor/dense_steam"
+    ]
+  ]
+}

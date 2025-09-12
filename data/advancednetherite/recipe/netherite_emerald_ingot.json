@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "advancednetherite:ingot/upgrade_to_netherite_emerald"
+    },
+    {
+      "tag": "advancednetherite:ingot/upgrade_to_netherite_emerald"
+    },
+    {
+      "tag": "advancednetherite:ingot/upgrade_to_netherite_emerald"
+    },
+    {
+      "tag": "c:gems/emerald"
+    },
+    {
+      "tag": "c:gems/emerald"
+    },
+    {
+      "tag": "c:gems/emerald"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "advancednetherite:netherite_emerald_ingot"
+  }
+}

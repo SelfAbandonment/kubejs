@@ -1,0 +1,12 @@
+{
+  "damage": 13,
+  "items": "farmersdelight:melon_popsicle",
+  "split": 8,
+  "reload_ticks": 10,
+  "render_mode": {
+    "type": "create:tumble"
+  },
+  "sound_pitch": 1.0,
+  "velocity_multiplier": 0.9,
+  "gravity_multiplier": 1.8
+}

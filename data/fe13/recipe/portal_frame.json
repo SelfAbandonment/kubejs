@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MEM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "tag": "c:ingots/mithril"
+    },
+    "E": {
+      "item": "irons_spellbooks:pyrium_ingot"
+    }
+  },
+  "result": {
+    "id": "irons_spellbooks:portal_frame",
+    "count": 2
+  }
+}

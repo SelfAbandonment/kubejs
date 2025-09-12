@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:pulling"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:repelling"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:dispell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:master"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:teleport"
+        }
+      ]
+    }
+  ]
+}

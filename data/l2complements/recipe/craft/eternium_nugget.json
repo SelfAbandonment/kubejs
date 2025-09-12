@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "advancednetherite:netherite_gold_ingot"
+    },
+    "2": {
+      "item": "advancednetherite:netherite_emerald_ingot"
+    },
+    "A": {
+      "item": "l2complements:explosion_shard"
+    },
+    "B": {
+      "item": "minecraft:anvil"
+    },
+    "C": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "pattern": [
+    "1C1",
+    "BAB",
+    "2C2"
+  ],
+  "result": {
+    "count": 1,
+    "id": "l2complements:eternium_nugget"
+  }
+}

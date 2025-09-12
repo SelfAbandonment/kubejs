@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "ingredient": { "item": "create:zinc_ingot" },
+      "count": 3
+    },
+    {
+      "ingredient": { "item": "minecraft:copper_ingot" },
+      "count": 3
+    }
+  ],
+  "result": {
+    "id": "create:brass_ingot",
+    "count": 3
+  },
+  "smeltingTime": 400,
+  "fuelPerTick": 1,
+  "requiredTier": 1
+}

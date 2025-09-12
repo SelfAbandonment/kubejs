@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "l2complements:sculkium_ingot"
+  },
+  "base": {
+    "item": "advancednetherite:netherite_diamond_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "l2complements:sculkium_leggings"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

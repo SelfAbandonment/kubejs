@@ -1,0 +1,12 @@
+{
+  "type": "irons_spellbooks:replace_loot",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+      ]
+    }
+  ],
+  "key": "irons_spellbooks:chests/trial_chambers/pot_replacement",
+  "chanceToReplace": 0.15
+}

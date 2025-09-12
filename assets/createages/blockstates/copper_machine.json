@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "createages:block/copper_machine" }
+  }
+}

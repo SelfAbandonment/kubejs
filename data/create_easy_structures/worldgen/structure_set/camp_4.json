@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_easy_structures:camp_4",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 40,
+    "salt": 540562480
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "advancednetherite:ingot/upgrade_to_netherite_diamond"
+    },
+    {
+      "tag": "advancednetherite:ingot/upgrade_to_netherite_diamond"
+    },
+    {
+      "tag": "advancednetherite:ingot/upgrade_to_netherite_diamond"
+    },
+    {
+      "tag": "advancednetherite:ingot/upgrade_to_netherite_diamond"
+    },
+    {
+      "tag": "c:gems/diamond"
+    },
+    {
+      "tag": "c:gems/diamond"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "advancednetherite:netherite_diamond_ingot"
+  }
+}

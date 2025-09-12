@@ -1,0 +1,10 @@
+{
+    "block.sootychimneys.cobblestone_chimney": "鹅卵石烟囱",
+    "jei.sootychimneys.chance": "%s%% 几率",
+    "tag.item.c.chimneys": "烟囱",
+    "block.sootychimneys.dirty_cobblestone_chimney": "脏鹅卵石烟囱",
+    "block.sootychimneys.dirty_mud_brick_chimney": "污泥砖烟囱",
+    "block.sootychimneys.iron_chimney": "铁烟囱",
+    "block.sootychimneys.dirty_iron_chimney": "脏铁烟囱",
+    "block.sootychimneys.mud_brick_chimney": "泥砖烟囱"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMax": 2.0,
+  "amountMultiplierMin": 1.0,
+  "biomeWhitelist": "minecraft:has_coolant_vein",
+  "finite": "never",
+  "icon": {
+    "count": 1,
+    "id": "kubejs:coolant_bucket"
+  },
+  "name": "{\"translate\":\"block.kubejs.coolant\"}",
+  "placement": {
+    "salt": 45734211,
+    "separation": 1,
+    "spacing": 2
+  },
+  "priority": 0
+}

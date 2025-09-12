@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMax": 4.0,
+  "amountMultiplierMin": 2.0,
+  "biomeWhitelist": "minecraft:has_gold_vein",
+  "finite": "default",
+  "icon": {
+    "count": 1,
+    "id": "minecraft:raw_gold"
+  },
+  "name": "{\"translate\":\"item.minecraft.raw_gold\"}",
+  "placement": {
+    "salt": 1523235716,
+    "separation": 2,
+    "spacing": 4
+  },
+  "priority": 1
+}

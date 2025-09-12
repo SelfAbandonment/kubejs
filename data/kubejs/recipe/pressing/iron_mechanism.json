@@ -1,0 +1,15 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    [
+      {
+        "item": "create:propeller"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "id": "createages:iron_mechanism"
+    }
+  ]
+}

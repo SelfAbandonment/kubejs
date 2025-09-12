@@ -1,0 +1,14 @@
+{
+  "itemGroup.createages": "Create: Ages",
+  "block.createages.andesite_machine": "安山机械",
+  "block.createages.copper_machine": "密封机械",
+  "block.createages.brass_machine": "黄铜机械",
+  "item.createages.iron_mechanism": "铁构件",
+  "item.createages.copper_mechanism": "密封构件",
+  "item.createages.zinc_hand": "锌手部零件",
+  "item.createages.incomplete_andesite_mechanism": "未完成的安山构件",
+  "item.createages.incomplete_copper_mechanism": "未完成的密封构件",
+  "item.createages.incomplete_brass_mechanism": "未完成的黄铜构件",
+  "item.createages.rubber": "橡胶",
+  "item.createages.cured_rubber": "风干橡胶"
+}

@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "createages:brass_machine"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_brass_mechanism"
+        },
+        {
+          "item": "createages:iron_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_brass_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_brass_mechanism"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_brass_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_brass_mechanism"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_brass_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createages:incomplete_brass_mechanism"
+  }
+}

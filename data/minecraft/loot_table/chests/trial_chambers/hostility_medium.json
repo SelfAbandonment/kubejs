@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:grenade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:adaptive"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:corrosion"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:erosion"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:growth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:drain"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:reprint"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:split"
+        }
+      ]
+    }
+  ]
+}

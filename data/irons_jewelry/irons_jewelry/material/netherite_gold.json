@@ -1,0 +1,37 @@
+{
+  "descriptionId": "material.irons_jewelry.netherites_gold",
+  "ingredient": {
+    "tag": "advancednetherite:ingot/netherites_gold"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/netherites_gold",
+  "quality": 1.9,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.055,
+      "operation": "add_multiplied_total"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:strength"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:wither"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": true,
+      "action": {
+        "type": "irons_jewelry:apply_effect",
+        "duration": 60,
+        "amplifier": {
+          "base": 0,
+          "scalar": 1,
+          "max": 2
+        },
+        "effect": "minecraft:strength"
+      }
+    }
+  }
+}

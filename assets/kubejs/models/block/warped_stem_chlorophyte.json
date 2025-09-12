@@ -1,0 +1,8 @@
+{
+  "parent": "kubejs:block/overlay_cube_column",
+  "textures": {
+    "end": "minecraft:block/warped_stem_top",
+    "side": "minecraft:block/warped_stem",
+    "overlay": "kubejs:block/chlorophyte_hl"
+  }
+}

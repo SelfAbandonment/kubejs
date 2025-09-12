@@ -1,0 +1,8 @@
+{
+  "mix_type": "potion",
+  "from": "apothic_attributes:long_flying",
+  "ingredient": {
+    "item": "create_compressed:rose_quartz_polished_block"
+  },
+  "to": "apothic_attributes:extra_long_flying"
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:freeze",
+    "minecraft:starve",
+    "minecraft:on_fire",
+    "minecraft:wither",
+    {
+      "id": "neoforge:poison",
+      "required": false
+    }
+  ]
+}

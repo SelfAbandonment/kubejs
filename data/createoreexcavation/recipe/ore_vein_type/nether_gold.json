@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMax": 8.0,
+  "amountMultiplierMin": 3.0,
+  "biomeWhitelist": "minecraft:has_gold_vein",
+  "finite": "default",
+  "icon": {
+    "count": 3,
+    "id": "minecraft:gold_nugget"
+  },
+  "name": "{\"translate\":\"item.minecraft.gold_nugget\"}",
+  "placement": {
+    "salt": 148851665,
+    "separation": 2,
+    "spacing": 4
+  },
+  "priority": 0
+}

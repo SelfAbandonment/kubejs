@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "kubejs:compressed_tuff"
+    }
+  ],
+  "processing_time": 350,
+  "results": [
+    {
+      "chance": 0.1,
+      "id": "minecraft:raw_gold"
+    },
+    {
+      "chance": 0.1,
+      "id": "minecraft:raw_copper"
+    },
+    {
+      "chance": 0.1,
+      "id": "create:raw_zinc"
+    },
+    {
+      "chance": 0.1,
+      "id": "minecraft:raw_iron"
+    }
+  ]
+}

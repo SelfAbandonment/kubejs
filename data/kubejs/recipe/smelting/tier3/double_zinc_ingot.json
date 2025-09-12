@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "ingredient": { "item": "create:raw_zinc" },
+      "count": 3
+    },
+    {
+      "ingredient": { "item": "create:raw_zinc" },
+      "count": 3
+    }
+  ],
+  "result": {
+    "id": "create:zinc_ingot",
+    "count": 12
+  },
+  "smeltingTime": 600,
+  "fuelPerTick": 3,
+  "requiredTier": 3
+}

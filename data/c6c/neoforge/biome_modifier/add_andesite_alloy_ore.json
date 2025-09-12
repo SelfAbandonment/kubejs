@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "c6c:ore_andesite_alloy",
+  "step": "underground_ores"
+}

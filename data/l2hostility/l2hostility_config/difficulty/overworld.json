@@ -1,0 +1,16 @@
+{
+  "biomeMap": {},
+  "levelDefaultTraits": {},
+  "levelMap": {
+    "minecraft:overworld": {
+      "apply_chance": 0.0,
+      "base": 0,
+      "min": 0,
+      "scale": 1.0,
+      "suppression": 0.0,
+      "trait_chance": 1.0,
+      "variation": 16.0
+    }
+  },
+  "structureDefaultTraits": {}
+}

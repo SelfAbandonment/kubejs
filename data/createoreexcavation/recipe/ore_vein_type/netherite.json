@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMax": 0.8,
+  "amountMultiplierMin": 0.5,
+  "biomeWhitelist": "minecraft:has_netherite_vein",
+  "finite": "default",
+  "icon": {
+    "count": 1,
+    "id": "minecraft:ancient_debris"
+  },
+  "name": "{\"translate\":\"block.minecraft.ancient_debris\"}",
+  "placement": {
+    "salt": 408736440,
+    "separation": 2,
+    "spacing": 4
+  },
+  "priority": 0
+}

@@ -1,0 +1,21 @@
+{
+	"item.kubejs.ticket":"女仆奖券",
+    "fluid.kubejs.coolant": "天然冷却液",
+    "fluid_type.kubejs.coolant": "天然冷却液",
+    "block.kubejs.coolant": "天然冷却液",
+    "item.kubejs.coolant_bucket": "天然冷却液桶",
+	"fluid.kubejs.flowing_coolant": "流动的天然冷却液",
+    "fluid.kubejs.super_coolant": "超级冷却液",
+    "fluid_type.kubejs.super_coolant": "超级冷却液",
+    "block.kubejs.super_coolant": "超级冷却液",
+    "item.kubejs.super_coolant_bucket": "超级冷却液桶",
+	"fluid.kubejs.flowing_super_coolant": "流动的超级冷却液",
+    "kubejs.tooltips.cinderous_soulcaller": "召唤炽魂的灰烬之铃...",
+    "kubejs.tooltips.chained_book": "丢入末地的灵魂火盆之中...",
+    "kubejs.tooltips.hither_thither_wand": "按V[默认]键释放",
+    "block.kubejs.warped_stem_chlorophyte"  : "叶绿矿化诡异菌柄",
+    "block.kubejs.compressed_tuff"  : "紧实凝灰岩",
+    "item.kubejs.chlorophyte_ingot" : "叶绿锭",
+    "item.kubejs.chlorophyte_sword" : "叶绿剑",
+    "lang.kubejs.end":"-------------------------"
+}

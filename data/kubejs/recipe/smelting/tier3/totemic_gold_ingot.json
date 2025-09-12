@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "ingredient": { "item": "minecraft:totem_of_undying" },
+      "count": 1
+    },
+    {
+      "ingredient": { "item": "kubejs:chlorophyte_ingot" },
+      "count": 3
+    }
+  ],
+  "result": {
+    "id": "l2complements:totemic_gold_ingot",
+    "count": 3
+  },
+  "smeltingTime": 600,
+  "fuelPerTick": 3,
+  "requiredTier": 3
+}

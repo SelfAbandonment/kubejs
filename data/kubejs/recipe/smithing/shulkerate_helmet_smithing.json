@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "l2complements:shulkerate_ingot"
+  },
+  "base": {
+    "item": "advancednetherite:netherite_diamond_helmet"
+  },
+  "result": {
+    "count": 1,
+    "id": "l2complements:shulkerate_helmet"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

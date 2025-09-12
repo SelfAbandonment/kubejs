@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "ingredient": { "item": "minecraft:netherite_scrap" },
+      "count": 3
+    },
+    {
+      "ingredient": { "item": "minecraft:raw_gold" },
+      "count": 3
+    }
+  ],
+  "result": {
+    "id": "minecraft:netherite_ingot",
+    "count": 1
+  },
+  "smeltingTime": 600,
+  "fuelPerTick": 3,
+  "requiredTier": 3
+}

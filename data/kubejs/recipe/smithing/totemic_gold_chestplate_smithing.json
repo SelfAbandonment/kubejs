@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "l2complements:totemic_gold_ingot"
+  },
+  "base": {
+    "item": "advancednetherite:netherite_diamond_chestplate"
+  },
+  "result": {
+    "count": 1,
+    "id": "l2complements:totemic_gold_chestplate"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

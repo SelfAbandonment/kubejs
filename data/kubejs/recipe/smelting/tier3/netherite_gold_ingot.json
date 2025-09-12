@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "ingredient": { "item": "advancednetherite:netherite_iron_ingot" },
+      "count": 2
+    },
+    {
+      "ingredient": { "tag": "c:ingots/gold" },
+      "count": 4
+    }
+  ],
+  "result": {
+    "id": "advancednetherite:netherite_gold_ingot",
+    "count": 1
+  },
+  "smeltingTime": 600,
+  "fuelPerTick": 3,
+  "requiredTier": 3
+}

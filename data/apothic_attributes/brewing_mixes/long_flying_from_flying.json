@@ -1,0 +1,8 @@
+{
+  "mix_type": "potion",
+  "from": "apothic_attributes:flying",
+  "ingredient": {
+    "item": "irons_spellbooks:mithril_scrap"
+  },
+  "to": "apothic_attributes:long_flying"
+}

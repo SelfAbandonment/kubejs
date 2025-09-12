@@ -1,0 +1,13 @@
+{
+    "parent": "kubejs:block/overlay_cube",
+    "textures": {
+        "particle": "#side",
+        "down": "#end",
+        "up": "#end",
+        "north": "#side",
+        "east": "#side",
+        "south": "#side",
+        "west": "#side",
+        "overlay": "#overlay"
+    }
+}

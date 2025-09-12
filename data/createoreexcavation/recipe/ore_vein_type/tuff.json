@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMax": 24.0,
+  "amountMultiplierMin": 8.0,
+  "biomeWhitelist": "minecraft:has_tuff_vein",
+  "finite": "default",
+  "icon": {
+    "count": 1,
+    "id": "kubejs:compressed_tuff"
+  },
+  "name": "{\"translate\":\"block.kubejs.compressed_tuff\"}",
+  "placement": {
+    "salt": 1768524180,
+    "separation": 1,
+    "spacing": 2
+  },
+  "priority": 0
+}

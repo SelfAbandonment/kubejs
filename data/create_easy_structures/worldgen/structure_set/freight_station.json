@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "create_easy_structures:freight_station",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 70,
+    "separation": 35,
+    "salt": 1354297359
+  }
+}

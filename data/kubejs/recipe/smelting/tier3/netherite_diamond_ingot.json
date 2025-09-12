@@ -1,0 +1,20 @@
+{
+  "type": "alloy_smelter:smelting",
+  "ingredients": [
+    {
+      "ingredient": { "item": "advancednetherite:netherite_emerald_ingot" },
+      "count": 4
+    },
+    {
+      "ingredient": { "tag": "c:gems/diamond" },
+      "count": 2
+    }
+  ],
+  "result": {
+    "id": "advancednetherite:netherite_diamond_ingot",
+    "count": 1
+  },
+  "smeltingTime": 600,
+  "fuelPerTick": 3,
+  "requiredTier": 3
+}

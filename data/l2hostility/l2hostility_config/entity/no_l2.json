@@ -1,0 +1,44 @@
+{
+  "list": [
+    {
+      "attackScale": 2.0,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 0.0,
+        "base": 0,
+        "min": 0,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 0.0,
+        "variation": 0.0
+      },
+      "entities": "irons_spellbooks:dead_king_corpse",
+      "healthScale": 1.0,
+      "items": [],
+      "maxLevel": 0,
+      "maxTraitCount": -1,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": [
+        {
+          "condition": {
+            "chance": 1.0,
+            "lv": 200
+          },
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:dispell"
+        },
+        {
+          "condition": {
+            "chance": 1.0,
+            "lv": 300
+          },
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:reprint"
+        }
+      ]
+    }
+  ]
+}

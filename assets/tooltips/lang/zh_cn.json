@@ -1,0 +1,23 @@
+{
+	"kubejs.tooltips.ruby_loot":"掉落自劫掠兽",
+    "kubejs.tooltips.sapphire_loot":"极低概率掉落自骷髅",
+    "kubejs.tooltips.topaz_loot":"低概率掉落自尸壳",
+    "kubejs.tooltips.moonstone_loot":"低概率掉落自流浪者",
+    "kubejs.tooltips.peridot_loot":"掉落自僵尸村民",
+    "kubejs.tooltips.onyx_loot":"极低概率掉落自蜘蛛",
+    "kubejs.tooltips.garnet_loot":"极低概率掉落自岩浆怪",
+    "kubejs.tooltips.empty_smart_slab":"可用于封印自己的女仆或无主的女仆",
+    "kubejs.tooltips.smart_slab":"可以通过玩偶抽奖机与奖券抽取获得",
+
+    "kubejs.tooltips.smart_slab_maid_could_exchange_notice1": "这个女仆还没有找到主人",
+    "kubejs.tooltips.smart_slab_maid_could_exchange_notice2": "可以与好友交换无主的女仆的魂符",
+
+    "kubejs.tooltips.hot_water_bucket": "与水一样，是无限流体",
+
+    "kubejs.tooltips.potato_cannon":"可作为土豆加农炮的子弹",
+    "kubejs.tooltips.potato_cannon_osusume":"有一股强劲的能量",
+
+    "kubejs.tooltips.mithril": "来自不死之王",
+    "kubejs.tooltips.not_implemented": "尚未实装",
+	"kubejs.tooltips.end":"-------------------------"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:water"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "umapyoi:hachimi_big"
+  }
+}

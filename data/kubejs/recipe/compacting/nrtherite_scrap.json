@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "kubejs:netherite_meltable"
+    },
+    {
+      "tag": "kubejs:netherite_meltable"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:netherite_scrap"
+    }
+  ]
+}

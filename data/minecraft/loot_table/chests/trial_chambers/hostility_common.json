@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:speedy"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:protection"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:fiery"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:regenerate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:shulker"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:counter_strike"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:gravity"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:moonwalk"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:soul_burner"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:nausea"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:blindness"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:levitation"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:wither"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:poison"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:slowness"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:weakness"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:arena"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:freezing"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:cursed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "l2hostility:tank"
+        }
+      ]
+    }
+  ]
+}

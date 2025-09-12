@@ -1,0 +1,13 @@
+{
+  "type": "create_dragons_plus:ending",
+  "ingredients": [
+    {
+      "item": "advancednetherite:netherite_gold_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "l2hostility:hostility_orb"
+    }
+  ]
+}

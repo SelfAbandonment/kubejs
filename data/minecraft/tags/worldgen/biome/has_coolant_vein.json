@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:jagged_peaks",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:cold_ocean"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "kubejs:coolant"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "kubejs:super_coolant"
+    }
+  ]
+}
