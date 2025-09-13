@@ -20,13 +20,13 @@ ServerEvents.recipes((event) => {
     'minecraft:light[block_state={level:"1"}]',
   ].map(addLight);
 
-//   event.shaped("c6c:abyssal_ticket", ["AAA", "ABA", "AAA"], {
-//     A: 'l2hostility:miracle_powder',
-//     B: "#kaleidoscope_doll:doll_machine_tokens"
-//   });
+  event.shaped("c6c:abyssal_ticket", ["AAA", "ABA", "AAA"], {
+    A: 'l2hostility:miracle_powder',
+    B: "#kaleidoscope_doll:doll_machine_tokens"
+  });
 
-//   event.shaped("c6c:abyssal_ticket", ["AAA", "ABA", "AAA"], {
-//     A: 'l2hostility:chaos_ingot',
-//     B: 'advancednetherite:netherite_gold_ingot'
-//   });
+  event.shaped("c6c:abyssal_ticket", ["AAA", "ABA", "AAA"], {
+    A: 'l2hostility:chaos_ingot',
+    B: 'advancednetherite:netherite_gold_ingot'
+  });
 });
