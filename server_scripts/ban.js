@@ -7,7 +7,7 @@ const restrictedItems = [
     'minecraft:light',
     'minecraft:debug_stick'
 ];
-const playerName = player.name.getString();
+
 
 restrictedItems.forEach(itemId => {
     ItemEvents.canPickUp(itemId, event => {
