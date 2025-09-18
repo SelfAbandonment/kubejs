@@ -10,7 +10,6 @@ const restrictedItems = [
     'create:creative_fluid_tank',
     'irons_spellbooks:arcane_anvil',
 ];
-
 const itemChineseNames = {
     'create:creative_crate': '创造板条箱',
     'minecraft:command_block': '命令方块',
@@ -19,7 +18,7 @@ const itemChineseNames = {
     'minecraft:jigsaw': '拼图方块',
     'minecraft:light': '光源方块',
     'minecraft:debug_stick': '调试棒',
-    'create:brown_toolbox': '工具箱',
+    'create:brown_toolbox': '棕色工具箱',
     'create:creative_fluid_tank': '创造流体储罐',
     'irons_spellbooks:arcane_anvil': '奥术铁砧'
 };
