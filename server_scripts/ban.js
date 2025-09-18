@@ -5,76 +5,98 @@ const restrictedItems = [
     'minecraft:structure_block',
     'minecraft:jigsaw',
     'minecraft:light',
-    'minecraft:debug_stick'
+    'minecraft:debug_stick',
+    'create:brown_toolbox',
+    'create:creative_fluid_tank',
+    'irons_spellbooks:arcane_anvil',
 ];
 
-
+const itemChineseNames = {
+    'create:creative_crate': '创造板条箱',
+    'minecraft:command_block': '命令方块',
+    'minecraft:barrier': '屏障',
+    'minecraft:structure_block': '结构方块',
+    'minecraft:jigsaw': '拼图方块',
+    'minecraft:light': '光源方块',
+    'minecraft:debug_stick': '调试棒',
+    'create:brown_toolbox': '工具箱',
+    'create:creative_fluid_tank': '创造流体储罐',
+    'irons_spellbooks:arcane_anvil': '奥术铁砧'
+};
+function getItemChineseName(itemId) {
+    return itemChineseNames[itemId] || itemId;
+}
 restrictedItems.forEach(itemId => {
     ItemEvents.canPickUp(itemId, event => {
         event.cancel();
-        console.log(`阻止玩家 ${event.player?.name?.getString()} 拾取: ${itemId}`);
-        event.server.tell(Text.of(`${playerName}拾取非法物品`));
     });
-    
     ItemEvents.dropped(itemId, event => {
         event.cancel();
-        console.log(`阻止玩家 ${event.player?.name?.getString()} 丢弃: ${itemId}`);
-        event.server.tell(Text.of(`${playerName}丢弃非法物品`));
     });
     BlockEvents.placed(itemId, event => {
-        const player = event.player;
         event.cancel();
-        event.block.set('minecraft:air')
-        event.server.tell(Text.of(`${playerName}放置非法物品，已移除`));
+        event.block.set('minecraft:air');
     });
     ItemEvents.rightClicked(itemId, event => {
-        const player = event.player;
-        console.log(`阻止玩家 ${player?.name?.getString()} 使用: ${itemId}`);
         event.cancel();
     });
     BlockEvents.rightClicked(itemId, event => {
-        const player = event.player;
-        
-        console.log(`阻止玩家 ${player?.name?.getString()} 交互: ${itemId}`);
-        event.cancel();
+        event.block.set('minecraft:air');
     });
 });
-
-
 PlayerEvents.loggedIn(event => {
     const player = event.player;
     const playerName = player.name.getString();
     let foundRestrictedItems = false;
     player.inventory.items.forEach(item => {
         if (restrictedItems.includes(item.id)) {
-            event.server.tell(`发现玩家 ${playerName} 背包中有受限物品: ${item.id}`);
             foundRestrictedItems = true;
+            const itemName = getItemChineseName(item.id);
             item.count = 0;
-            event.server.tell(Text.of(`§c检测到非法物品 ${item.id} 已被移除!`));
+            console.log(`发现玩家 ${playerName}背包中有受限物品: ${itemName}`);
+            
+            if (event.server) {
+                event.server.tell(Text.of(`§c玩家${playerName}有非法物品${itemName}已被系统移除!`));
+            }
         }
     });
-    
+    player.enderChestInventory.items.forEach(item => {
+        if (restrictedItems.includes(item.id)) {
+            foundRestrictedItems = true;
+            const itemName = getItemChineseName(item.id);
+            item.count = 0;
+            console.log(`发现玩家 ${playerName} 末影箱中有受限物品: ${itemName}`);
+            if (event.server) {
+                event.server.tell(Text.of(`§c玩家${playerName}有非法物品${itemName}已被系统移除!`));
+            }
+        }
+    });
 });
 ServerEvents.tick(event => {
     const { server } = event;
-
     if (server.tickCount % 300 === 0) {
         server.players.forEach(player => {
             let foundRestrictedItems = false;
             const playerName = player.name.getString();
             player.inventory.items.forEach(item => {
                 if (restrictedItems.includes(item.id)) {
-                    event.server.tell(`定期检查发现玩家 ${playerName} 背包中有受限物品: ${item.id}`);
                     foundRestrictedItems = true;
-                    
-                    // 移除物品
+                    const itemName = getItemChineseName(item.id);
                     item.count = 0;
-                    event.server.tell(Text.of(`§c检测到非法物品 ${item.id} 已被系统移除!`));
+                    console.log(`定期检查发现玩家${playerName}背包中有受限物品${itemName}`);
+                    server.tell(Text.of(`§c玩家${playerName}有非法物品${itemName}已被系统移除!`));
+                }
+            });
+            player.enderChestInventory.items.forEach(item => {
+                if (restrictedItems.includes(item.id)) {
+                    foundRestrictedItems = true;
+                    const itemName = getItemChineseName(item.id);
+                    item.count = 0;
+                    console.log(`定期检查发现玩家${playerName} 末影箱中有受限物品: ${itemName}`);
+                    server.tell(Text.of(`§c玩家${playerName}有非法物品${itemName}已被系统移除!`));
                 }
             });
         });
     }
 });
-
-
-console.log("物品与方块限制系统已加载，受限物品: " + restrictedItems.join(", "));
+console.log("物品与方块限制已加载，受限物品: " + restrictedItems.join(", "));
