@@ -9,6 +9,7 @@ const restrictedItems = [
     'create:brown_toolbox',
     'create:creative_fluid_tank',
     'irons_spellbooks:arcane_anvil',
+    'automobility:rear_attachment'
 ];
 const itemChineseNames = {
     'create:creative_crate': '创造板条箱',
@@ -20,7 +21,8 @@ const itemChineseNames = {
     'minecraft:debug_stick': '调试棒',
     'create:brown_toolbox': '棕色工具箱',
     'create:creative_fluid_tank': '创造流体储罐',
-    'irons_spellbooks:arcane_anvil': '奥术铁砧'
+    'irons_spellbooks:arcane_anvil': '奥术铁砧',
+    'automobility:rear_attachment':'车尾箱子附件'
 };
 function getItemChineseName(itemId) {
     return itemChineseNames[itemId] || itemId;
